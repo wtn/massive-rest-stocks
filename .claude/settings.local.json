@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(jq:*)",
+      "Bash(bundle show:*)",
+      "Read(//opt/homebrew/lib/ruby/gems/3.3.0/gems/massive-rest-0.1.0/lib/massive/rest/**)",
+      "Read(//opt/homebrew/lib/ruby/gems/3.3.0/gems/massive-rest-0.1.0/lib/massive/**)",
+      "Read(//opt/homebrew/lib/ruby/gems/3.3.0/gems/massive-rest-0.1.0/**)",
+      "Bash(bundle exec sus:*)",
+      "Bash(cat:*)",
+      "Bash(bundle exec ruby:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
